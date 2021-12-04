@@ -5,11 +5,13 @@ const patterns = {
     regex: /^[a-zA-Z]*$/,
     message: 'must only contain alphabet characters',
   },
-  alphanum: {
+  alphanum:
+  {
     regex: /^[\w]*$/,
     message: 'must only contain alpha-numeric characters',
   },
-  password: {
+  password: 
+  {
     regex:
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[_!#@$%&?])[a-zA-Z0-9_!#@$%&?]{8,}$/,
     message:
@@ -18,7 +20,8 @@ const patterns = {
 };
 
 const options = {
-  errors: {
+  errors:
+  {
     wrap: {
       label: "'",
     },
